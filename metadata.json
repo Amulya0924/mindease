@@ -1,0 +1,6 @@
+{
+  "name": "MindEase Chatbot",
+  "description": "An empathetic, mindfulness-based AI companion, mood tracker, and stress-relief utility.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,137 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-brand-bg: #F7F5F0;
+  --color-brand-text: #2D3A3A;
+  --color-brand-border: #E5E2D9;
+  --color-brand-muted: #7A7A7A;
+  --color-brand-light: #A5A198;
+  --color-brand-accent: #7DAA92;
+  --color-brand-accent-hover: #67927a;
+}
+
+/* Custom styles for breathing phases */
+.theme-inhale-bg {
+  background-color: rgba(125, 170, 146, 0.15);
+  border-color: rgba(125, 170, 146, 0.4);
+}
+.theme-exhale-bg {
+  background-color: rgba(13, 148, 136, 0.12);
+  border-color: rgba(13, 148, 136, 0.35);
+}
+.theme-hold-bg {
+  background-color: rgba(79, 70, 229, 0.1);
+  border-color: rgba(79, 70, 229, 0.3);
+}
+.theme-hold2-bg {
+  background-color: rgba(217, 119, 6, 0.1);
+  border-color: rgba(217, 119, 6, 0.3);
+}
+
+/* Custom sleek scrollबार */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #E5E2D9;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A5A198;
+}
+
+/* Soothing Forest-Night Dark Theme overrides */
+.dark {
+  --color-brand-bg: #111616;
+  --color-brand-text: #E1E8E6;
+  --color-brand-border: #2D3A3A;
+  --color-brand-muted: #93A6A0;
+  --color-brand-light: #5B706B;
+  --color-brand-accent: #79BA9F;
+  --color-brand-accent-hover: #96D1BA;
+}
+
+.dark .bg-white {
+  background-color: #192121 !important;
+}
+
+.dark .bg-brand-bg {
+  background-color: #111616 !important;
+}
+
+.dark .text-brand-text {
+  color: #E1E8E6 !important;
+}
+
+.dark .border-brand-border {
+  border-color: #2D3A3A !important;
+}
+
+.dark .border-slate-200 {
+  border-color: #2D3A3A !important;
+}
+
+.dark .bg-slate-50 {
+  background-color: #141C1C !important;
+}
+
+.dark .bg-slate-100 {
+  background-color: #232D2D !important;
+}
+
+.dark .text-slate-800 {
+  color: #E1E8E6 !important;
+}
+
+.dark .text-slate-705 {
+  color: #D1DAD7 !important;
+}
+
+.dark .text-slate-700 {
+  color: #D1DAD7 !important;
+}
+
+.dark .text-slate-600 {
+  color: #A2B5B0 !important;
+}
+
+.dark .text-slate-500 {
+  color: #92A39F !important;
+}
+
+.dark .text-slate-400 {
+  color: #6C7F7B !important;
+}
+
+.dark .bg-indigo-50 {
+  background-color: rgba(121, 186, 159, 0.1) !important;
+}
+
+.dark .border-indigo-200 {
+  border-color: rgba(121, 186, 159, 0.2) !important;
+}
+
+.dark .text-indigo-700 {
+  color: #79BA9F !important;
+}
+
+.dark .text-indigo-600 {
+  color: #79BA9F !important;
+}
+
+.dark .bg-indigo-600 {
+  background-color: #79BA9F !important;
+}
+
+.dark .bg-indigo-600:hover {
+  background-color: #61A388 !important;
+}
+
