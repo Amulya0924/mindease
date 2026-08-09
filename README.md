@@ -1,20 +1,80 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Mindease 💙  
+*Your space for clarity.*
 
-# Run and deploy your AI Studio app
+Mindease is an AI-powered mental wellness assistant designed to help users manage stress, reflect on emotions, and build healthier mental habits through guided conversations and mindful tools.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/243be7ec-1caa-4798-9bc6-679dc31bace7
+## 🌟 Inspiration
+In a fast-paced world, people often suppress emotions due to lack of time, support, or safe spaces.  
+Mindease was built to provide a **private, judgment-free environment** for mental well-being.
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 💡 What it does
+Mindease goes beyond a basic chatbot by combining **AI conversation + wellness tools**:
 
+- 💬 AI-powered empathetic dialogue  
+- 🧘 Guided breathing exercises (4 types)  
+- 📓 Smart journaling with reflective prompts  
+- 😊 Daily mood tracking with context notes  
+- 🌗 Dark & Light mode for comfort  
+- 🔐 Secure access (login/logout & password)  
+- 🚨 Safety section with healthcare/emergency contacts  
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+## ✨ Features
+
+### 🧠 Dialogue Guide
+A conversational AI that helps users:
+- Unpack thoughts  
+- Reflect without pressure  
+- Feel heard and supported  
+
+### 🧘 Breathwork
+- 4 different breathing techniques  
+- Helps reduce anxiety and regain focus  
+
+### 📓 Journal
+- Guided questions instead of blank writing  
+- Encourages structured self-reflection  
+
+### 😊 Mood Tracker
+- Log daily emotions  
+- Add context notes to understand patterns  
+
+### 🌗 UI Experience
+- Clean, calming interface  
+- Dark & Light mode for better usability  
+
+### 🔐 Safety & Privacy
+- Secure login/logout system  
+- Emergency & healthcare support contacts included  
+
+---
+
+## 🎯 Problem it solves
+Many people struggle to:
+- Express emotions openly  
+- Track their mental state  
+- Access immediate support  
+
+Mindease provides a **simple, accessible, and private solution** for everyday mental wellness.
+
+---
+
+## ⚙️ Tech Stack
+*(edit this based on what you used)*  
+- Frontend: React / HTML / CSS  
+- Backend: Node.js  
+- AI Integration: (Gemini / OpenAI / etc.)  
+- Database: (if used)
+
+---
+
+## 🚀 How to run locally
+
+```bash
+npm install
+npm run dev
